@@ -1,4 +1,11 @@
---Aula do dia 11/03/2025
---Professor Molina
+-- comando prara selecionar todos os
+-- registros da tabela medicos
+select *
+from Medicos; 
 
---comando select
+select nome, idade
+from medicos;
+
+select *
+from medicos
+where codm =3;
